@@ -128,3 +128,58 @@ button {
   justify-content: space-between;
 
 }
+.about{
+  background-color: var(--yellow);
+  padding-top: 113px;
+  padding-bottom: 124px;
+}
+.about-title{
+  color: var(--main-text-color);
+font-size: 42px;
+line-height: 1.2;
+max-width: 526px;
+margin-bottom: 20px;
+}
+.about-desc{
+  color: var(--main-text-color);
+font-size: 16px;
+line-height: 1.5;
+max-width: 500px;
+margin-bottom: 40px;
+}
+.about-list-title{
+  color: var(--main-text-color);
+font-size: 18px;
+line-height: 1.4;
+margin-bottom: 16px;
+}
+.about-list-text{
+  color: var(--main-text-color);
+font-size: 14px;
+line-height: 1.5;
+ max-width: 253px;
+}
+.about-btn{
+  border-radius: 30px;
+border: 2px solid var(--green);
+background: #FFF;
+color: var(--main-text-color);
+font-size: 13px;
+font-weight: 500;
+line-height: 1.5;
+padding: 10px 22px;
+}
+.about-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.about-list{
+  display: flex;
+  gap: 67px;
+  margin-bottom: 32px;
+ 
+}
+.about-item{
+  width: calc((100% - 67px)/2);
+}
