@@ -319,6 +319,19 @@ opacity: 1;
 .swiper-pagination-bullet-active {
   background: #02897A;
 }
+
+/*Tanushka*/
+
+.box-big {
+  margin-top: 150px;
+}
+.container {
+  display: flex;
+  width: 1440px;
+  height: 960px;
+  padding: 20px 30px;
+}
+
 .box {
   width: 545px;
 height: 640px;
@@ -332,6 +345,13 @@ position: relative;
   bottom: 50px;
 
 }
+
+.box-two {
+  margin-left: 150px;
+  display: block;
+  width: 605px;
+  height: 615px;
+}
 .box-title::after {
   content: "";
   width: 50px;
@@ -340,3 +360,48 @@ background: #FFCA42;
 display: block;
 margin-top: 23px;
 }
+
+
+.box-text {
+  width: 559px;
+  margin-top: 33px;
+  margin-bottom: 33px;
+}
+.box-numer {
+  display: flex;
+}
+
+.box-cart {
+  display: block;
+}
+
+.box-cart:after {
+content: "";
+display: block;
+width: 1px;
+height: 98px;
+background: #FFCA42;
+}
+
+.numer {
+  width: 56px;
+  color: #1B3764;
+    font-family: Cardo;
+    font-size: 54px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.43;
+    
+}
+
+.numer-text {
+  width: 139px;
+  color: #969AA0;
+    font-family: Inter;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.27;
+    
+}
+
