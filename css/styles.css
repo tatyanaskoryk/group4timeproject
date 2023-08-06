@@ -319,3 +319,24 @@ opacity: 1;
 .swiper-pagination-bullet-active {
   background: #02897A;
 }
+.box {
+  width: 545px;
+height: 640px;
+border: 10px solid #FFCA42;
+position: relative;
+}
+
+.box-img {
+  position: absolute;
+  right: 50px;
+  bottom: 50px;
+
+}
+.box-title::after {
+  content: "";
+  width: 50px;
+height: 3px;
+background: #FFCA42;
+display: block;
+margin-top: 23px;
+}
