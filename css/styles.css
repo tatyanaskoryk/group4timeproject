@@ -327,6 +327,7 @@ opacity: 1;
 }
 .container {
   display: flex;
+  
   width: 1440px;
   height: 960px;
   padding: 20px 30px;
@@ -345,9 +346,14 @@ position: relative;
   bottom: 50px;
 
 }
+.box-general {
+display: flex;
+flex-direction: column;
+margin-left: 150px;
+}
 
 .box-two {
-  margin-left: 150px;
+  
   display: block;
   width: 605px;
   height: 615px;
@@ -369,6 +375,7 @@ margin-top: 23px;
 }
 .box-numer {
   display: flex;
+  /*flex-direction: column; */
 }
 
 .box-cart {
